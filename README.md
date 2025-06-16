@@ -1,16 +1,23 @@
 LabelImg-OBB: An Annotation Tool for Rotated Bounding Boxes
 ==================================================================
 LabelImg-OBB is an advanced graphical image annotation tool designed for labeling rotated rectangular regions (Oriented Bounding Boxes, or OBBs). 
+
 It is a customized extension of the original LabelImg and its rotated variant roLabelImg, combining their core functionalities with extended format support.
 
 The original LabelImg only supports axis-aligned bounding boxes and the roLabelImg update supports rotated boxes. 
+
 The roLabelImg saves only in Pascal VOC .xml format with labels as <cx, cy, w, h, angle> .
+
 
 LabelImg-OBB supports:
 
 Key Features:
+
 Label rotated rectangles with an intuitive Qt-based GUI.
+
 Save annotations in both Pascal VOC (.xml) and YOLO (.txt) formats.
+
+
 Support for two YOLO-style OBB formats:
 
    1.Type I – YOLO-OBB (Angle-based) -- (Total: 6 values)
